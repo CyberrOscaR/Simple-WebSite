@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Sencillo diseño de una Web<br>📚 Facil de editar y basado en GTA<br>🎯 Diseño Negro/Naranja</p>
+<p align="left">✨ Sencillo diseño (No funcional) de una Web<br>📚 Facil de editar y basado en GTA<br>🎯 Diseño Negro/Naranja</p>
 
 ###
 
