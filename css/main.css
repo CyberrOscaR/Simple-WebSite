@@ -1,0 +1,356 @@
+/* TITULO */
+/* TITULO */
+/* TITULO */
+
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #FFA500;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    /* align-items: center; */
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(255, 165, 0, 0.7);
+    border-bottom: 2px solid orange;
+    margin-bottom: 40px;
+    color: orange;
+}
+
+.logogta {
+    display: flex;
+    width: 300px; 
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+/* TITULO */
+/* TITULO */
+/* TITULO */
+
+
+
+/* BARRA DE BUSQUEDA ENTRE PAGINAS (TABS) */
+#tabs {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.856);
+    padding: 5px 10px;
+    list-style-type: none;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#tabs li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+#tabs a {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#tabs a:hover {
+    background-color: #FFB300;
+    color: #000;
+    text-decoration: underline;
+}
+
+#tabs a.active {
+    background-color: #ffbb00;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+#tabs a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    #tabs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #tabs li {
+        margin: 2px;
+    }
+
+    #tabs a {
+        padding: 8px 12px;
+    }
+}
+
+/* TEXTO INICIO */
+/* TEXTO INICIO */
+/* TEXTO INICIO */
+
+.texto {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+}
+
+.texto2 {
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+.texto3 {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    margin: 31px 0;
+}
+/* TEXTO INICIO */
+/* TEXTO INICIO */
+/* TEXTO INICIO */
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+.footer {
+    background-color: #1a1a1a;
+    border-top: 1px solid #8d8d8db9;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logocc {
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+.aboutfoot {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 5px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.aboutfoot:hover {
+    text-decoration: underline;
+    color: #e67e22;
+    text-shadow: 0 0 5px #e67e22;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image-frame {
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.footer-image {
+    width: 312px;
+    height: 180px;
+    border-radius: 5px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.footer-image-frame:hover {
+    border-color: #e67e22;
+    transform: scale(1.02);
+}
+
+.footer-image-frame:hover .footer-image {
+    transform: scale(1.03);
+    opacity: 0.95;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.footer-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer-link:hover {
+    color: #e67e22;
+    text-shadow: 0 0 5px #e67e22;
+}
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+/* LOGOGTA6 */
+/* LOGOGTA6 */
+/* LOGOGTA6 */
+
+.imagen-efecto {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen-efecto:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.coming-soon {
+    font-family: Arial;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f700ff;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* LOGOGTA6 */
+/* LOGOGTA6 */
+/* LOGOGTA6 */
+
+/* TEXTO */
+/* TEXTO */
+/* TEXTO */
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(255, 165, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+.titulo {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFFFFF, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.subtitulo {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #FFA500;
+    padding-bottom: 8px; 
+    background: linear-gradient(90deg, #FFFFFF, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.descripcion {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* TEXTO */
+/* TEXTO */
+/* TEXTO */
